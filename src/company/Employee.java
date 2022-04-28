@@ -7,7 +7,7 @@ public class Employee {
     protected int salary;// protected, because this field is use in class Manager (derived class)
 
     public Employee(String name, int salary) {
-        System.out.printf("Data from Employee constructor. Name: %s, Salary: %s", name, salary);
+        System.out.printf("Data from Employee constructor. Name: %s, Salary: %s%n", name, salary);
         this.name = name;
         this.salary = salary;
     }
