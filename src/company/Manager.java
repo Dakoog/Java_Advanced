@@ -10,7 +10,7 @@ public class Manager extends Employee{
     }
     public Manager(String name, int salary,int bonus) {
         super(name, salary);
-        System.out.printf("Data from Manager constructor. Name: %s, Salary: %s adn Bonus %s", name, salary, bonus);
+        System.out.printf("Data from Manager constructor. Name: %s, Salary: %s adn Bonus %s%n", name, salary, bonus);
 
     }
     public void show(){ // on overridden method -> overrides a method in a base class and added method with base class (super.show());
