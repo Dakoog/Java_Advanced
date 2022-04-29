@@ -1,9 +1,10 @@
 package company;
 
-public final class Secretary extends Employee {
-    public Secretary(String name, int salary) {
-        super(name, salary);
-        System.out.printf("Data from Secretary constructor. Name: %s, Salary: %s%n", name, salary);
+public final class Secretary extends Employee {// final class - this class cannot be extended by other classes
+
+    public Secretary(String name, int salary, int age) {
+        super(name, salary, age);
+        System.out.printf("Data from Secretary constructor. Name: %s, Salary: %s Age: %s%n", name, salary, age);
     }
 
     public void makeCall(String number) {
