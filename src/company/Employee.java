@@ -17,7 +17,7 @@ public class Employee {
     }
 
     public void show() {
-        System.out.printf("Show information at new employee%n. My name's %s. I earn %s €.", name, salary);
+        System.out.printf("Show information at new employee.%nMy name's %s. I earn %s €.%n", name, salary);
     }
 
 }
