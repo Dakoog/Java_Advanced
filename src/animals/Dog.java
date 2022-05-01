@@ -8,6 +8,7 @@ public class Dog extends Animal implements Run {
 
     @Override
     public void saySomething() {
+        System.out.println("hau! hauuu!");
 
     }
 
