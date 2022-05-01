@@ -11,6 +11,9 @@ public class Dog extends Animal implements Runner {
         System.out.println("hau! hauuu!");
 
     }
+    public void trackDownSomething(String item){
+        System.out.println("Hau, hau! - I find "+ item);
+    }
 
     @Override
     public void run() {
