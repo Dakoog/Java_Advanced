@@ -10,4 +10,9 @@ public class Duck extends Bird {
     public void saySomething() {
 
     }
+    class Duckling{
+        public void say(){
+            System.out.println("kwaii,kwaii");
+        }
+    }
 }
