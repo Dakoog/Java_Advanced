@@ -9,5 +9,17 @@ public class AnimalMain {
             Dog runningDog = (Dog) runner;//
             runningDog.saySomething();
         }
+        // calling object with internal class
+        Duck duck = new Duck("Ugly duckling");
+        Duck.Duckling duckling = duck.new Duckling();
+        duckling.say();
+
+        // anonymous class
+        Animal animal = new Animal("Snail George"){
+            @Override
+            public void saySomething() {
+                System.out.println("... snails");
+            }
+        };
     }
 }
