@@ -12,7 +12,7 @@ public class Dog extends Animal implements Runner {
 
     }
     public void trackDownSomething(String item){
-        System.out.println("Hau, hau! - I find "+ item);
+        System.out.println("Hau, hau! - I found "+ item);
     }
 
     @Override
