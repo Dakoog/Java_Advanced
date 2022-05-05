@@ -17,6 +17,6 @@ public class Radio extends Device {
     }
 
     private void changeChannel(String channel) {
-        System.out.println("Change to channel "+ channel);
+        System.out.println("Change to channel " + channel);
     }
 }
