@@ -1,6 +1,6 @@
 package electronics;
 
 public interface EmailSender  {
-    void sendEmail();
+    void sendEmail(String message);
 
 }

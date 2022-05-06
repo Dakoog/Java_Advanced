@@ -1,6 +1,6 @@
 package electronics;
 
-public class Phone extends Device {
+public class Phone extends Device implements EmailSender{
     private String number;
 
     public void makeCall(String number) {
@@ -18,6 +18,11 @@ public class Phone extends Device {
 
     @Override
     public void turnOff() {
+
+    }
+
+    @Override
+    public void sendEmail(String message) {
 
     }
 }
